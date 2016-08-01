@@ -1,7 +1,7 @@
 //
 //  FlurryMediatedNativeAd.h
 //
-//  Base definition of mediated Flurry ads
+//  Container for all mediated ads from Flurry
 //
 //  Copyright © 2016 Yahoo, Inc. All rights reserved.
 //
@@ -26,9 +26,6 @@
 @property (nonnull, strong) NSMutableDictionary* flurryExtraAssets;
 
 - (_Nullable instancetype)init NS_UNAVAILABLE;
-/*!
- * @brief Initializes the mediated ad with an instance of a Flurry native ad.
- */
 - (_Nullable instancetype)initWithFlurryNativeAd:(FlurryAdNative * _Nonnull)flurryNativeAd
                              withImagesPreloaded:(BOOL)preloadImages NS_DESIGNATED_INITIALIZER;
 
