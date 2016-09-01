@@ -1,6 +1,8 @@
 Flurry iOS Adapter for AdMob and DFP
 ====================================
 
+[![Cocoapods pod version](https://img.shields.io/cocoapods/v/AdMobMediationAdapterFlurry.svg?style=flat)](https://cocoapods.org/pods/AdMobMediationAdapterFlurry)
+
 ### Adapter version 7.6.6 - Updated 2016-08-01
 
 This adapter enables mediation of Flurry ads via the Google Ads SDK for 
@@ -11,9 +13,9 @@ This adapter enables mediation of Flurry ads via the Google Ads SDK for
 
 To install this adapter via CocoaPods, create a Podfile -- if you do not have one already -- with the following content:
 
-```
-target :"YourAppBuildTarget" do
-   pod 'FlurryAdapterAdmob/FlurryAdapter'
+```ruby
+target 'YourAppBuildTarget' do
+   pod 'AdMobMediationAdapterFlurry', '~>7.6'
    # ...your other pod dependencies
 end
 ```
@@ -27,8 +29,8 @@ To integrate Flurry as a mediated network in your AdMob/DFP ad serving, three in
 3. Configure AdMob to mediate Flurry.
 
 To learn more about these steps, read the Yahoo Developer Network documentation for 
-[AdMob](https://developer.yahoo.com/flurry/docs/publisher/code/adaptors/admob/) or 
-[DFP](https://developer.yahoo.com/flurry/docs/publisher/code/adaptors/admob/dfp/).
+[AdMob](https://developer.yahoo.com/flurry/docs/publisher/mediation/admob/ios/) or 
+[DFP](https://developer.yahoo.com/flurry/docs/publisher/mediation/dfp/ios/).
 
 Changelog
 ---------
