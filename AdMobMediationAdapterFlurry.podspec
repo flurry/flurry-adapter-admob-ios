@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-    spec.name               = 'AdMobMediationAdapterFlurry'
-	spec.version            = '7.6.6'
+	spec.name               = 'AdMobMediationAdapterFlurry'
+	spec.version            = '7.6.7'
 	spec.summary            = 'Flurry adapter for Google Ads SDK'
 	spec.license            = { :type => 'Commercial', :file => 'Licenses/Flurry-LICENSE.txt' }
 	spec.description        = 'The Flurry adapter allows app publishers mediate the Flurry SDK using Google Ads for AdMob or DFP'
@@ -11,11 +11,7 @@ Pod::Spec.new do |spec|
 	spec.author             = { 'Flurry' => 'integration@flurry.com' }
 	spec.platforms          = { :ios => '6.0' }
 	spec.source_files       = [
-		'FlurryAdapter/FlurryAdNetworkExtras.h',
-		'FlurryAdapter/FlurryMediatedNativeAd.h',
-		'FlurryAdapter/FlurryMediatedNativeAppInstallAd.h',
-		'FlurryAdapter/FlurryMediatedNativeContentAd.h',
-		'FlurryAdapter/GADMAdapterFlurryAppCircle.h'
+		'FlurryAdapter/FlurryAdNetworkExtras.h'
 	]
 	spec.vendored_libraries  = 'FlurryAdapter/libFlurryAdapter.a'
 	spec.dependency 'Flurry-iOS-SDK/FlurrySDK', '~> 7'
