@@ -3,7 +3,7 @@ Flurry iOS Adapter for AdMob and DFP
 
 [![Cocoapods pod version](https://img.shields.io/cocoapods/v/AdMobMediationAdapterFlurry.svg?style=flat)](https://cocoapods.org/pods/AdMobMediationAdapterFlurry)
 
-### Adapter version 7.8.3 - Updated 2016-12-23
+### Adapter version 7.9.2 - Updated 2017-02-10
 
 This adapter enables mediation of Flurry ads via the Google Ads SDK for 
 [DoubleClick for Publishers](https://developers.google.com/mobile-ads-sdk/docs/dfp/ios/mediation-networks) or 
@@ -34,6 +34,10 @@ To learn more about these steps, read the Yahoo Developer Network documentation 
 
 Changelog
 ---------
+### Version 7.9.2 - 2017-02-10
+* Added full bitcode compatibility
+* Bug fixes
+
 ### Version 7.8.3 - 2016-12-23
 * Bug fixes
 
