@@ -14,8 +14,16 @@ This adapter enables mediation of Flurry ads via the Google Ads SDK for
 To install this adapter via CocoaPods, create a Podfile -- if you do not have one already -- with the following content:
 
 ```ruby
+platform :ios, '8.0'
+
 target 'YourAppBuildTarget' do
-   pod 'AdMobMediationAdapterFlurry', '~> 7'
+
+  pod 'Google-Mobile-Ads-SDK'
+
+  pod 'Flurry-iOS-SDK/FlurrySDK' #Analytics Pod
+  pod 'Flurry-iOS-SDK/FlurryAds' #Advertising Pod (requires Analytics)
+
+  pod 'AdMobMediationAdapterFlurry', '~> 8'
    # ...your other pod dependencies
 end
 ```
