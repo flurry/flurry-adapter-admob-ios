@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 	spec.name               = 'AdMobMediationAdapterFlurry'
-	spec.version            = '8.6.0'
+	spec.version            = '8.2.1'
 	spec.summary            = 'Flurry adapter for Google Ads SDK'
 	spec.license            = { :type => 'Commercial', :file => 'Licenses/Flurry-LICENSE.txt' }
 	spec.description        = 'The Flurry adapter allows app publishers mediate the Flurry SDK using Google Ads for AdMob or DFP'
