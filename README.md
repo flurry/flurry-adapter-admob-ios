@@ -3,6 +3,10 @@ Flurry iOS Adapter for AdMob and DFP
 
 [![Cocoapods pod version](https://img.shields.io/cocoapods/v/AdMobMediationAdapterFlurry.svg?style=flat)](https://cocoapods.org/pods/AdMobMediationAdapterFlurry)
 
+### Adapter version 8.6.1 - Updated 2018-05-18
+
+-Enable bitcode support
+
 ### Adapter version 8.6.0 - Updated 2018-05-16
 
 -Update to Google-Mobile-Ads-SDK 7.30.0
